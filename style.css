@@ -1,67 +1,44 @@
 :root {
-    /*CORES*/
-    --cor-de-fundo: (#FFFFFF);
-    --cor-principal: (#101828);
-    --cor-secundaria: (#667085);
-    --cor-destaque: (#8E2424);
-
-    /*FONTES*/
-    --fonte-principal: 'Inter';
-    --estilo-fonte: ('Normal')
-}
-
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--cor-principal);
-    font-family: var(--fonte-principal);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-* {
+    --text-color: #667085;
+  }
+  
+  * {
     margin: 0;
     padding: 0;
-}
-
-li, a{
-    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .links a {
+    color: var(--text-color);
     text-decoration: none;
-}
-
-.cabecalho{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    padding: 18px 80px;
-}
-
-.cabecalho__logo{
-    margin: 8.5px 1100px 8.5px 32px;
-}
-
-.cabecalho__links{
-    margin: 6px 619px 6px 299px;
-}
-
-.cabecalho__lista{
-    display: flex;
-    justify-content: center;
-}
-
-.espaco__livre{
-    margin: 6px 358px 6px 780px;
-}
-
-.cabecalho__botoes{
-    margin: 0px 32px 0px 119px;
-
-}
-
-.lista__botoes{
-    display: flex;
-    justify-content: center;
-}
-
-.lista__botoes a{
-    color: var(--cor-secundaria);
-}
+    margin-right: 2rem;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: #8E2424;
+    color: #FFF;
+  }
