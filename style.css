@@ -1,0 +1,67 @@
+:root {
+    /*CORES*/
+    --cor-de-fundo: (#FFFFFF);
+    --cor-principal: (#101828);
+    --cor-secundaria: (#667085);
+    --cor-destaque: (#8E2424);
+
+    /*FONTES*/
+    --fonte-principal: 'Inter';
+    --estilo-fonte: ('Normal')
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 18px 80px;
+}
+
+.cabecalho__logo{
+    margin: 8.5px 1100px 8.5px 32px;
+}
+
+.cabecalho__links{
+    margin: 6px 619px 6px 299px;
+}
+
+.cabecalho__lista{
+    display: flex;
+    justify-content: center;
+}
+
+.espaco__livre{
+    margin: 6px 358px 6px 780px;
+}
+
+.cabecalho__botoes{
+    margin: 0px 32px 0px 119px;
+
+}
+
+.lista__botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.lista__botoes a{
+    color: var(--cor-secundaria);
+}
