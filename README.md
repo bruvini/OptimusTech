@@ -7,3 +7,6 @@
 
 ## Day 1
 ### Neste primeiro dia, você vai desenvolver o cabeçalho da aplicação, chamado normalmente de Navbar, que contempla o logo, o menu com as páginas e também os dois botões do canto direito
+
+## Day 2
+### O desafio de hoje é desenvolver a primeira seção da sua página, que também pode ser chamada de "cabeçalho"
