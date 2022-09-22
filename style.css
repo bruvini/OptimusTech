@@ -1,44 +1,44 @@
 :root {
-    --text-color: #667085;
+    --text-color: #667085; /*padroniza a cor dos textos*/
   }
   
   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    margin: 0; /*retira o margin de tudo*/
+    padding: 0; /*retira o padding de tudo*/
+    box-sizing: border-box; /*define tudo como border-box*/
+    font-family: 'Inter', sans-serif; /*define a fonte de tudo*/
   }
   
   body {
-    width: 100%;
+    width: 100%; /*Diz que o body deve ocupar 100% da página*/
     height: 100vh;
   }
   
   nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem 0;
+    justify-content: space-around; /*define um espaço em volta de cada item como padrão*/
+    align-items: center; /*alinha todos os itens da barra de navegação no centro*/
+    padding: 1rem 0; /*coloca um padding superior e inferior padrão para os itens da navegação*/
   }
   
   .links a {
-    color: var(--text-color);
-    text-decoration: none;
-    margin-right: 2rem;
+    color: var(--text-color); /*usa a cor padrão nos links*/
+    text-decoration: none; /*retira underline e ponto dos links*/
+    margin-right: 2rem; /*coloca uma margin à direita dos links*/
   }
   
   button {
-    padding: 0.8rem 1rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    background: none;
-    color: var(--text-color);
-    font-size: 0.9rem;
+    padding: 0.8rem 1rem; /*coloca um padding interno nos botôes*/
+    cursor: pointer; /*configura um pointer para o botão*/
+    border: none; /*retira a borda dos botoes*/
+    border-radius: 0.5rem; /*define a curvatura das bordas*/
+    font-weight: 500; /*define a grossura da fonte*/
+    background: none; /*remove o fundo dos botoes*/
+    color: var(--text-color); /*define a cor padrão*/
+    font-size: 0.9rem; /*define o tamanho da fonte*/
   }
   
   button#signUp {
-    background-color: #8E2424;
-    color: #FFF;
+    background-color: #8E2424; /*define um fundo para o botão cadastrar*/
+    color: #FFF; /*muda a cor só do texto para branco*/
   }
