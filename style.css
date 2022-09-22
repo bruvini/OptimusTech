@@ -42,3 +42,7 @@
     background-color: #8E2424; /*define um fundo para o botão cadastrar*/
     color: #FFF; /*muda a cor só do texto para branco*/
   }
+
+  button#signUp:hover{
+    background-color: #420a0a; /*muda a cor do botão de cadastrar quando passa o mouse*/
+  }
